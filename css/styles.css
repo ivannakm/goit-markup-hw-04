@@ -302,6 +302,7 @@ fill:  #f4f4fd;
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 8px;
 }
 
 .social_links {
@@ -440,7 +441,7 @@ padding: 100px 0 100px;
 .web_logo {
   color: #f4f4fd ;
   }
-  .logo_web {
+.logo_web {
 font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
@@ -450,7 +451,6 @@ text-transform: uppercase;
 color: #4d5ae5;
 display: inline-block;
 margin-bottom: 16px;
-padding: 24px 0 24px;
 }
 .social_media {
   display: flex;
