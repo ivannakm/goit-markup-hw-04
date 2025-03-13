@@ -87,7 +87,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.header::after  {
+.header_link_studio::after  {
   width: 100%;
   position: absolute;
   left: 0; 
@@ -100,6 +100,10 @@ body {
   color:  #2e2f42;
   padding: 24px 0 24px;
   display: block;
+  position: relative;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header_link:hover {
   color:  #404bbf;
@@ -117,8 +121,6 @@ text-transform: uppercase;
 color: #4d5ae5;
 margin-right: 76px;
 padding: 24px 0 24px;
-position: relative; 
-color: #404bbf;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .logo:hover {
@@ -380,7 +382,9 @@ overflow: hidden;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.project_card_overlay:hover {
+  transform: translateY(0%);
+}
 .app_descr {
   padding: 32px 16px;
   border: 1px solid #e7e9fc; 
