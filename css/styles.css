@@ -166,7 +166,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .main_title_box {
 padding: 188px 0 188px;
 background: #2e2f42;
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1-2.jpg);
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office1-2.jpg);
 background-repeat: no-repeat;
 background-position: center;  
 background-size: cover;
@@ -387,9 +387,9 @@ overflow: hidden;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio_point .project_card_overlay:hover {
+.portfolio_point:hover .project_card_overlay {
   transform: translateY(0%);
-}
+} 
 .app_descr {
   padding: 32px 16px;
   border: 1px solid #e7e9fc; 
@@ -456,7 +456,7 @@ padding: 24px 0 24px;
   display: flex;
   flex-direction: column;
 }
-.social_links {
+footer .social_links {
 gap: 16px;
 }
 
