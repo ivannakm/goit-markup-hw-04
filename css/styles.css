@@ -88,14 +88,19 @@ body {
   color: #2e2f42;
 }
 .header_link_studio::after  {
-  width: 100%;
   position: absolute;
   left: 0; 
   bottom: -1px;
   height: 4px; 
   background-color: #404bbf; 
   border-radius: 2px;
+  content: '';
+  width: 100%;
 }
+.menu .header_link_studio {
+color: #404bbf;
+}
+
 .header_link {
   color:  #2e2f42;
   padding: 24px 0 24px;
@@ -382,7 +387,7 @@ overflow: hidden;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.project_card_overlay:hover {
+.portfolio_point .project_card_overlay:hover {
   transform: translateY(0%);
 }
 .app_descr {
